@@ -1,8 +1,8 @@
 #!/bin/bash
 
 POOL=ethash.poolbinance.com:1800
-WALLET=arseppppp
-WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-Proxy
+WALLET=lancardong
+WORKER=$(echo "$(cat /proc/sys/kernel/hostname)" | tr . _ )-Proxy
 
 cd "$(dirname "$0")"
 
